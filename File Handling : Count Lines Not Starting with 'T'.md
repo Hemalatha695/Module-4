@@ -13,7 +13,28 @@ To write a Python program that counts the number of lines in a text file `story.
 
 ## 🧾 Program
 Add code here
+```
+# Step 1: Open the file in read mode
+try:
+    with open('story.txt', 'r') as file:
+        count = 0  # Step 2: Initialize counter
+
+        # Step 3: Iterate through each line
+        for line in file:
+            # Strip leading whitespace and check if line doesn't start with 'T'
+            if not line.lstrip().startswith('T'):
+                count += 1
+
+    # Step 4: Print the result
+    print("Number of lines that do not start with 'T':", count)
+
+except FileNotFoundError:
+    print("The file 'story.txt' was not found.")
+```
 
 ## Output
-
+```
+Number of lines that do not start with 'T': 3
+```
 ## Result
+the program reads the file safely, trims leading spaces to handle indentation, and correctly counts lines that don't start with 'T'
