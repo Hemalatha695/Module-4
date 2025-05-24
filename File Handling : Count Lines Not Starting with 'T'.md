@@ -33,8 +33,6 @@ except FileNotFoundError:
 ```
 
 ## Output
-```
-Number of lines that do not start with 'T': 3
-```
+5
 ## Result
 the program reads the file safely, trims leading spaces to handle indentation, and correctly counts lines that don't start with 'T'
