@@ -13,20 +13,14 @@ To write a Python program that handles an **IndexError** when trying to access a
 ## 🧾 Program
 Add code here
 ```
-# Step 1: Define a list with some elements
 list1 = [10, 20, 30, 40]
-
-# Step 2: Use try-except to handle IndexError
 try:
-    # Trying to access an element beyond the available range
     print("Accessing element at index 5:", list1[5])
 except IndexError:
-    # Custom error message if index is out of range
     print("You're out of list range")
 ```
 ## Output
-```
-You're out of list range
-```
+![image](https://github.com/user-attachments/assets/fd17a8df-5805-4d21-b03b-08598f720591)
+
 ## Result
 This program correctly demonstrates exception handling for out-of-range list access.
