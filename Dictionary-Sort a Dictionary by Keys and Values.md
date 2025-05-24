@@ -52,16 +52,8 @@ print("\nDictionary Sorted by Values:")
 print(sorted_by_values)
 ```
 ##output
-```
-Original Dictionary:
-{'banana': 'yellow', 'apple': 'red', 'cherry': 'dark red', 'blueberry': 'blue'}
+![image](https://github.com/user-attachments/assets/90f1eeec-a6b8-4ebe-a499-66e9312e8dac)
 
-Dictionary Sorted by Keys:
-{'apple': 'red', 'banana': 'yellow', 'blueberry': 'blue', 'cherry': 'dark red'}
-
-Dictionary Sorted by Values:
-{'blueberry': 'blue', 'cherry': 'dark red', 'apple': 'red', 'banana': 'yellow'}
-```
 
 ## Result
 The program successfully sorts the dictionary by both keys and values.
