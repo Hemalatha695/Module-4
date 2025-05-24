@@ -25,8 +25,7 @@ def merge(d1, d2):
 merged_dict = merge(dict1, dict2_
 ```
 ## Output
-```
-Merged Dictionary: {'a': 1, 'b': 20, 'c': 3, 'd': 4}
-```
+![image](https://github.com/user-attachments/assets/49767153-df28-4d0f-a3ef-047deeac491d)
+
 ## Result
 The program correctly merges the dictionaries and handles key collisions as expected.
