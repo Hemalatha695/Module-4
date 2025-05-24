@@ -31,8 +31,7 @@ obj = cse()
 obj.mech(radius)
 ```
 ## Output
-```
-The area of the circle with radius 7.0 is: 153.94
-```
+![image](https://github.com/user-attachments/assets/334cb8c5-805f-43f3-8bda-c06b6bea792d)
+
 ## Result
 This program successfully encapsulates the area calculation in a class method and interacts with the user for input. 
