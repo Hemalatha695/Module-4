@@ -20,7 +20,7 @@ except IndexError:
     print("You're out of list range")
 ```
 ## Output
-![image](https://github.com/user-attachments/assets/fd17a8df-5805-4d21-b03b-08598f720591)
+![image](https://github.com/user-attachments/assets/242c549f-2f89-4399-b2b8-e731010c2534)
 
 ## Result
 This program correctly demonstrates exception handling for out-of-range list access.
